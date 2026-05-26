@@ -61,25 +61,27 @@ Nginx Stream (ssl_preread)
 
 ---
 
-# 🚀 Установка
+# 🚀 Добавление сервиса
 
-## Скачать скрипт
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/SibMan54/nginx-stream-router/main/install.sh)
+```
 
+## Локальный запуск
 ```bash
 curl -O https://raw.githubusercontent.com/SibMan54/nginx-stream-router/main/install.sh
 chmod +x install.sh
-```
-
-## Запуск
-
-```bash
 sudo ./install.sh
 ```
-
 ---
 
 # 🧹 Удаление сервиса
 
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/SibMan54/nginx-stream-router/main/uninstall.sh)
+```
+
+## Локальный запуск
 ```bash
 curl -O https://raw.githubusercontent.com/SibMan54/nginx-stream-router/main/uninstall.sh
 chmod +x uninstall.sh
